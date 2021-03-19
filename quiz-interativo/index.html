@@ -22,7 +22,7 @@
 
         <form class="form-quiz">
             <div class="question">
-                <p>1) Qual é o lugar correto para inserir a referencia do codigo js?</p>
+                <p>1) Qual é o lugar correto para inserir a referência do codigo js?</p>
                 <label>
                     A)
                     <input type="radio" name="inputQuestion1" value="A" />
@@ -35,16 +35,15 @@
                 </label>
                 <label>
                     C)
-                    <input type="radio" name="inputQuestion1" value="C">
+                    <input type="radio" id="inputQuestion1" name="inputQuestion1" value="C">
                     Na sessão "body"
                 </label>
-            </div>
-            
+            </div> 
             <div class="question">
                 <p>2) Como invocar uma função com o nome "myFunc"?</p>
                 <label for="">
                     A)
-                    <input type="radio" name="inputQuestion2" value="A" />
+                    <input type="radio" id="inputQuestion2" name="inputQuestion2" value="A" />
                     myFunc()
                 </label>
                 <label for="">
@@ -58,7 +57,6 @@
                     call.myFunc()
                 </label>
             </div>
-
             <div class="question">
                 <p>3) Como escrever "Hello World" em uma caixa de alerta?</p>
                 <label for="">
@@ -77,7 +75,6 @@
                     alertBox("Hello World")
                 </label> 
             </div>
-
             <div class="question">
                 <p>4) Como escrever uma função "if" em js?</p>
                 <label for="">
@@ -96,7 +93,6 @@
                     if (i == 5)
                 </label>
             </div>
-
             <div class="question">
                 <p>5) Como criar uma função em js?</p>
                 <label for="">
@@ -115,13 +111,10 @@
                     function:myFunction()
                 </label>
             </div>
-            
-
-            <button>Confirmar</button>
+            <div class="button"><button>Confirmar</button></div>    
         </form>
     </div>
     
-
     <script src="./app.js"></script>
   </body>
 </html>
