@@ -57,7 +57,7 @@ const handleSubmitResultsAndScore = (event) => {
 
   insertParagraph();
 
-  userAnswers = [
+  const userAnswers = [
     event.target.inputQuestion1.value,
     event.target.inputQuestion2.value,
     event.target.inputQuestion3.value,
@@ -66,10 +66,11 @@ const handleSubmitResultsAndScore = (event) => {
   ];
 
   userAnswers.forEach(checkCorrectsAnswers);
+
   showMessageResults();
 
   messagePorcentScore.classList.remove("display");
-
+  
   scrollTo(0, 0);
 
   let counter = 0;

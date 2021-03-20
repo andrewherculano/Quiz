@@ -33,7 +33,6 @@ header img {
 }
 
 /*RESULT SCORE*/
-
 .result-score p {
   /* background: rgba(149, 175, 214, 0.5); */
   padding: 30px 30px 30px;
@@ -81,6 +80,12 @@ header img {
 
 .porcent-score p {
   background-color: rgba(149, 175, 214, 0.5);
+}
+
+.porcent-score span {
+  color: rgb(21, 38, 190);
+  font-size: 180%;
+  padding-right: 10px;
 }
 
 /*---SUBTITLE---*/
