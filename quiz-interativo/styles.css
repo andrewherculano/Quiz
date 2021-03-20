@@ -32,6 +32,57 @@ header img {
   width: 100px;
 }
 
+/*RESULT SCORE*/
+
+.result-score p {
+  /* background: rgba(149, 175, 214, 0.5); */
+  padding: 30px 30px 30px;
+  text-align: center;
+  margin: 10px 5px 0 5px;
+  border-radius: 5px;
+  border: #ffa07a 2px solid;
+  font-size: 120%;
+}
+
+.result-score-message-correct {
+  background: rgba(149, 214, 158, 0.5);
+  padding: 30px 30px 30px;
+  text-align: center;
+  margin: 10px 5px 0 5px;
+  border-radius: 5px;
+  border: rgb(0, 107, 48) 2px solid;
+  font-size: 120%;
+}
+
+.result-score-message-error {
+  background: rgba(214, 156, 149, 0.5);
+  padding: 30px 30px 30px;
+  text-align: center;
+  margin: 10px 5px 0 5px;
+  border-radius: 5px;
+  border: rgb(151, 15, 15) 2px solid;
+  font-size: 120%;
+}
+
+.result-score-message-warning {
+  background: rgba(214, 213, 149, 0.5);
+  padding: 30px 30px 30px;
+  text-align: center;
+  margin: 10px 5px 0 5px;
+  border-radius: 5px;
+  border: rgb(255, 218, 7) 2px solid;
+  font-size: 120%;
+}
+
+/*PORCENT SCORE*/
+.display {
+  display: none;
+}
+
+.porcent-score p {
+  background-color: rgba(149, 175, 214, 0.5);
+}
+
 /*---SUBTITLE---*/
 .container-form-quiz h2 {
   margin: 20px 0 10px 40px;
@@ -103,7 +154,3 @@ button:hover {
 }
 
 /*PARAGRAPH SCORE*/
-.show-score {
-  margin: 20px 20px;
-  text-align: center;
-}
